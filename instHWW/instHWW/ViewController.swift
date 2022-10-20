@@ -7,7 +7,7 @@
 
 import UIKit
 
-/// VC
+/// dev
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
