@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		71A6CC3C2901258600204D89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6CC3B2901258600204D89 /* AppDelegate.swift */; };
 		71A6CC3E2901258600204D89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6CC3D2901258600204D89 /* SceneDelegate.swift */; };
-		71A6CC402901258600204D89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6CC3F2901258600204D89 /* ViewController.swift */; };
-		71A6CC432901258600204D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A6CC412901258600204D89 /* Main.storyboard */; };
-		71A6CC452901258800204D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A6CC442901258800204D89 /* Assets.xcassets */; };
 		71A6CC482901258800204D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A6CC462901258800204D89 /* LaunchScreen.storyboard */; };
+		71A6CC8129012A1200204D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A6CC8029012A1200204D89 /* Assets.xcassets */; };
+		71A6CC8329012A2400204D89 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A6CC8229012A2400204D89 /* Colors.xcassets */; };
+		71A6CC8929012A3D00204D89 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6CC8429012A3D00204D89 /* PostTableViewCell.swift */; };
+		71A6CC8A29012A3D00204D89 /* RecomendationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6CC8529012A3D00204D89 /* RecomendationTableViewCell.swift */; };
+		71A6CC8B29012A3D00204D89 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A6CC8629012A3D00204D89 /* PostTableViewCell.xib */; };
+		71A6CC8C29012A3D00204D89 /* RecomendationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A6CC8729012A3D00204D89 /* RecomendationTableViewCell.xib */; };
+		71A6CC8D29012A3D00204D89 /* RibbonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6CC8829012A3D00204D89 /* RibbonViewController.swift */; };
+		71A6CC9029012A4600204D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A6CC8E29012A4600204D89 /* Main.storyboard */; };
+		71A6CC9529012C4200204D89 /* StoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A6CC9129012C4200204D89 /* StoriesTableViewCell.swift */; };
+		71A6CC9629012C4200204D89 /* StoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A6CC9329012C4200204D89 /* StoriesTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		71A6CC382901258600204D89 /* instHWW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instHWW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A6CC3B2901258600204D89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71A6CC3D2901258600204D89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71A6CC3F2901258600204D89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		71A6CC422901258600204D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		71A6CC442901258800204D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71A6CC472901258800204D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71A6CC492901258800204D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A6CC8029012A1200204D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../InstProjectHW 2/InstProjectHW/Assets.xcassets"; sourceTree = "<group>"; };
+		71A6CC8229012A2400204D89 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = ../../../../InstProjectHW/InstProjectHW/Colors.xcassets; sourceTree = "<group>"; };
+		71A6CC8429012A3D00204D89 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostTableViewCell.swift; path = ../../../../InstProjectHW/InstProjectHW/PostTableViewCell.swift; sourceTree = "<group>"; };
+		71A6CC8529012A3D00204D89 /* RecomendationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecomendationTableViewCell.swift; path = ../../../../InstProjectHW/InstProjectHW/RecomendationTableViewCell.swift; sourceTree = "<group>"; };
+		71A6CC8629012A3D00204D89 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PostTableViewCell.xib; path = ../../../../InstProjectHW/InstProjectHW/PostTableViewCell.xib; sourceTree = "<group>"; };
+		71A6CC8729012A3D00204D89 /* RecomendationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecomendationTableViewCell.xib; path = ../../../../InstProjectHW/InstProjectHW/RecomendationTableViewCell.xib; sourceTree = "<group>"; };
+		71A6CC8829012A3D00204D89 /* RibbonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RibbonViewController.swift; path = ../../../../InstProjectHW/InstProjectHW/RibbonViewController.swift; sourceTree = "<group>"; };
+		71A6CC8F29012A4600204D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../../InstProjectHW/InstProjectHW/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71A6CC9229012C4200204D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = "../../../../InstProjectHW 2/InstProjectHW/Base.lproj/StoriesTableViewCell.swift"; sourceTree = "<group>"; };
+		71A6CC9429012C4200204D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../../InstProjectHW 2/InstProjectHW/Base.lproj/StoriesTableViewCell.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +72,16 @@
 			children = (
 				71A6CC3B2901258600204D89 /* AppDelegate.swift */,
 				71A6CC3D2901258600204D89 /* SceneDelegate.swift */,
-				71A6CC3F2901258600204D89 /* ViewController.swift */,
-				71A6CC412901258600204D89 /* Main.storyboard */,
-				71A6CC442901258800204D89 /* Assets.xcassets */,
+				71A6CC8829012A3D00204D89 /* RibbonViewController.swift */,
+				71A6CC8429012A3D00204D89 /* PostTableViewCell.swift */,
+				71A6CC8629012A3D00204D89 /* PostTableViewCell.xib */,
+				71A6CC8729012A3D00204D89 /* RecomendationTableViewCell.xib */,
+				71A6CC9129012C4200204D89 /* StoriesTableViewCell.swift */,
+				71A6CC9329012C4200204D89 /* StoriesTableViewCell.xib */,
+				71A6CC8529012A3D00204D89 /* RecomendationTableViewCell.swift */,
+				71A6CC8E29012A4600204D89 /* Main.storyboard */,
+				71A6CC8029012A1200204D89 /* Assets.xcassets */,
+				71A6CC8229012A2400204D89 /* Colors.xcassets */,
 				71A6CC462901258800204D89 /* LaunchScreen.storyboard */,
 				71A6CC492901258800204D89 /* Info.plist */,
 			);
@@ -126,9 +147,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A6CC9629012C4200204D89 /* StoriesTableViewCell.xib in Resources */,
+				71A6CC9029012A4600204D89 /* Main.storyboard in Resources */,
+				71A6CC8C29012A3D00204D89 /* RecomendationTableViewCell.xib in Resources */,
 				71A6CC482901258800204D89 /* LaunchScreen.storyboard in Resources */,
-				71A6CC452901258800204D89 /* Assets.xcassets in Resources */,
-				71A6CC432901258600204D89 /* Main.storyboard in Resources */,
+				71A6CC8B29012A3D00204D89 /* PostTableViewCell.xib in Resources */,
+				71A6CC8329012A2400204D89 /* Colors.xcassets in Resources */,
+				71A6CC8129012A1200204D89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,29 +184,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71A6CC402901258600204D89 /* ViewController.swift in Sources */,
+				71A6CC8A29012A3D00204D89 /* RecomendationTableViewCell.swift in Sources */,
+				71A6CC8D29012A3D00204D89 /* RibbonViewController.swift in Sources */,
 				71A6CC3C2901258600204D89 /* AppDelegate.swift in Sources */,
 				71A6CC3E2901258600204D89 /* SceneDelegate.swift in Sources */,
+				71A6CC8929012A3D00204D89 /* PostTableViewCell.swift in Sources */,
+				71A6CC9529012C4200204D89 /* StoriesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		71A6CC412901258600204D89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71A6CC422901258600204D89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71A6CC462901258800204D89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				71A6CC472901258800204D89 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		71A6CC8E29012A4600204D89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A6CC8F29012A4600204D89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71A6CC9129012C4200204D89 /* StoriesTableViewCell.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A6CC9229012C4200204D89 /* Base */,
+			);
+			name = StoriesTableViewCell.swift;
+			sourceTree = "<group>";
+		};
+		71A6CC9329012C4200204D89 /* StoriesTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A6CC9429012C4200204D89 /* Base */,
+			);
+			name = StoriesTableViewCell.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -304,8 +348,8 @@
 		71A6CC4D2901258800204D89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3ZCQU6CM8M;
@@ -332,8 +376,8 @@
 		71A6CC4E2901258800204D89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3ZCQU6CM8M;
